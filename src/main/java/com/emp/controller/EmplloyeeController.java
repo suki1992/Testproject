@@ -35,5 +35,11 @@ public class EmplloyeeController {
 		
 		
 	}
+	@GetMapping("/getDetails")
+	public List<Employee> getEmployees()
+	{
+		return empService.fetchEmployee();
+		
+	}
 
 }
