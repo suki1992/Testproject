@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class Employee {
 	@Id
 	@GeneratedValue
-	private Integer empId;
+	private Integer empId; 
 	private String empName; 
 	private String course;
 	@Override
