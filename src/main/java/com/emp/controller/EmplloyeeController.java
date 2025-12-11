@@ -14,7 +14,7 @@ import com.emp.service.EmployeeService;
 @RestController
 public class EmplloyeeController {
 	@Autowired
-	private EmployeeService empService;
+	private EmployeeService empService; 
 	@PostMapping("/addUser")
 	public Employee createEmployee(@RequestBody Employee emp)
 	{
