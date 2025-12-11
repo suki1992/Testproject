@@ -26,6 +26,14 @@ public class EmplloyeeController {
 	{
 		return empService.fetchEmployee();
 		
+		
+	}
+	@GetMapping("/getDetails")
+	public List<Employee> getEmployees()
+	{
+		return empService.fetchEmployee();
+		
+		
 	}
 	@GetMapping("/getDetails")
 	public List<Employee> getEmployees()
