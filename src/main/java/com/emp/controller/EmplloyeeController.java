@@ -24,14 +24,11 @@ public class EmplloyeeController {
 	@GetMapping("/getDetails")
 	public List<Employee> getEmployee()
 	{
+		System.out.println(" i am from 201_employee ");
 		return empService.fetchEmployee();
 		
-	}
-	@GetMapping("/getDetails")
-	public List<Employee> getEmployees()
-	{
-		return empService.fetchEmployee();
 		
 	}
+
 
 }
