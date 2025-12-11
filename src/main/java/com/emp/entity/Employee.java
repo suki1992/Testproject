@@ -15,7 +15,7 @@ public class Employee {
 	@Id
 	@GeneratedValue
 	private Integer empId;
-	private String empName;
+	private String empName; 
 	private String course;
 	@Override
 	public String toString() {
